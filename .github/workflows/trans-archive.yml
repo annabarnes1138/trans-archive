@@ -1,10 +1,7 @@
 name: Archive Artifacts
 
 on:
-  # Trigger on a schedule and/or manually.
-  schedule:
-    - cron: '0 0 * * 5'
-  workflow_dispatch:
+  pull_request:
 
 jobs:
   archive:
