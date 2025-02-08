@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run Web Archiver Composite Action
-        uses: annabarnes1138/web-archiver-action@v1.5
+        uses: annabarnes1138/web-archiver-action@v1.6
         with:
           artifacts: |-
             [
