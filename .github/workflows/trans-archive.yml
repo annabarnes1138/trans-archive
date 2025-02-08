@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run Web Archiver Composite Action
-        uses: annabarnes1138/web-archiver-action@v1.2
+        uses: annabarnes1138/web-archiver-action@v1.3
         with:
           # Provide a JSON array of artifact objects. Each object must include a "url" and may include a "description".
           artifacts: |
@@ -29,3 +29,4 @@ jobs:
             ]
           schedule: "Weekly on Fridays at midnight (UTC)"
           static_description: "diyhrt.info, diyhrt.market, hrt.coffee, hrtcafe.net, transfemscience.org genderdysphoria.fyi and a few others in case something goes wrong."
+          github_token: ${{ secrets.GITHUB_TOKEN }}
