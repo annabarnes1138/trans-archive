@@ -13,8 +13,7 @@ jobs:
       - name: Run Web Archiver Composite Action
         uses: annabarnes1138/web-archiver-action@v1.4
         with:
-          # Provide a JSON array of artifact objects. Each object must include a "url" and may include a "description".
-          artifacts: |
+          artifacts: |-
             [
               { "url": "https://diyhrt.info", "description": "The DIY HRT Directory 2.0" },
               { "url": "https://diyhrt.market", "description": "List of hormone suppliers" },
