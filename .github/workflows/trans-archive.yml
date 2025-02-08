@@ -29,5 +29,3 @@ jobs:
             ]
           schedule: "Weekly on Fridays at midnight (UTC)"
           static_description: "diyhrt.info, diyhrt.market, hrt.coffee, hrtcafe.net, transfemscience.org genderdysphoria.fyi and a few others in case something goes wrong."
-        secrets:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
