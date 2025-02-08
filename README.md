@@ -1,9 +1,7 @@
-diyhrt.info, diyhrt.market, hrt.coffee, hrtcafe.net, transfemscience.org genderdysphoria.fyi and a few others in case something goes wrong.
-
 # Archive Report
 
 ## Archived Artifacts:
-- [https://hrt.coffee](archive/https___hrt_coffee/index.html) - List of hormone suppliers - Last archived on: 2025-02-08
+- [https://hrt.coffee](archive/hrt.coffee/index.html) - List of hormone suppliers - Last archived on: 2025-02-08
 
 ## Schedule
 Weekly on Fridays at midnight (UTC)
