@@ -21,7 +21,7 @@ jobs:
               { "url": "https://hrt.coffee", "description": "List of hormone suppliers" },
               { "url": "https://hrtcafe.net", "description": "DIY HRT Info" },
               { "url": "https://transfemscience.org", "description": "Articles on transfeminine hormone therapy" },
-              { "url": "https://genderdysphoria.fyi/gdb.pdf", "description": "PDF download of 'That's Gender Dysphoria, FYI'" },
+              { "url": "https://genderdysphoria.fyi/gdb.pdf", "description": "PDF download of Thats Gender Dysphoria, FYI" },
               { "url": "r/TransDIY", "description": "Subreddit Wiki for TransDIY" },
               { "url": "r/TransSurgeriesWiki", "description": "Subreddit Wiki for TransSurgeriesWiki" },
               { "url": "r/FtM", "description": "Subreddit Wiki for FtM" },
