@@ -11,10 +11,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run Web Archiver Composite Action
-        uses: annabarnes1138/web-archiver-action@v1.7
+        uses: annabarnes1138/web-archiver-action@v1.8
         with:
           artifacts: |-
-            '[
+            [
               { "url": "https://diyhrt.info", "description": "The DIY HRT Directory 2.0" },
               { "url": "https://diyhrt.market", "description": "List of hormone suppliers" },
               { "url": "https://hrt.coffee", "description": "List of hormone suppliers" },
@@ -25,7 +25,7 @@ jobs:
               { "url": "r/TransSurgeriesWiki", "description": "Subreddit Wiki for TransSurgeriesWiki" },
               { "url": "r/FtM", "description": "Subreddit Wiki for FtM" },
               { "url": "r/MtF", "description": "Subreddit Wiki for MtF" }
-            ]'
+            ]
           schedule: "Weekly on Fridays at midnight (UTC)"
           static_description: "diyhrt.info, diyhrt.market, hrt.coffee, hrtcafe.net, transfemscience.org genderdysphoria.fyi and a few others in case something goes wrong."
           github_token: ${{ secrets.GITHUB_TOKEN }}
