@@ -21,8 +21,16 @@ jobs:
         with:
           artifacts: |-
             [
-              { "url": "https://hrt.coffee", "description": "List of hormone suppliers" }
+              { "url": "https://diyhrt.info", "description": "The DIY HRT Directory 2.0" },
+              { "url": "https://diyhrt.market", "description": "List of hormone suppliers" },
+              { "url": "https://hrt.coffee", "description": "List of hormone suppliers" },
+              { "url": "https://hrtcafe.net", "description": "DIY HRT Info" },
+              { "url": "https://transfemscience.org", "description": "Articles on transfeminine hormone therapy" },
+              { "url": "https://genderdysphoria.fyi/gdb.pdf", "description": "PDF download of Thats Gender Dysphoria, FYI" },
+              { "url": "r/TransDIY", "description": "Subreddit Wiki for TransDIY" },
+              { "url": "r/TransSurgeriesWiki", "description": "Subreddit Wiki for TransSurgeriesWiki" },
+              { "url": "r/FtM", "description": "Subreddit Wiki for FtM" },
+              { "url": "r/MtF", "description": "Subreddit Wiki for MtF" }
             ]
           schedule: "Weekly on Fridays at midnight (UTC)"
-          static_description: "diyhrt.info, diyhrt.market, hrt.coffee, hrtcafe.net, transfemscience.org genderdysphoria.fyi and a few others in case something goes wrong."
           github_token: ${{ secrets.GITHUB_TOKEN }}
