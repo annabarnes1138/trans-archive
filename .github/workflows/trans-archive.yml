@@ -1,4 +1,4 @@
-name: Archive Artifacts
+name: Update Archive Artifacts
 
 on:
   # Trigger on a schedule and/or manually.
